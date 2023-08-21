@@ -1,0 +1,37 @@
+{
+  "cli": {
+    "version": ">= 3.14.0",
+    "requireCommit": true
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "gradleCommand":":app:assembleDebug",
+        "developmentClient":true
+      },
+      "distribution": "internal"
+    },
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "ios": {
+        "buildConfiguration": "Debug"
+      },
+      "developmentClient": true
+    },
+    "production": {
+      "android": {
+        "buildType": "apk",
+        "gradleCommand":":app:assembleRelease"
+      },
+      "distribution": "internal"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
