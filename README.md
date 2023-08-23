@@ -1,6 +1,6 @@
 # Seek
 
-View the project details at: https://devpost.com/software/seek-ju5cw8
+View the project details at: https://devpost.com/software/seek-ju5cw8   
 Note: The below installation instructions likely will not work as we do not have the necessary resources to keep the servers up at the moment.
 
 An APK for this app is available, but if there are issues or you wish to run the app on iOS, follow the instructions below. Keep in mind the version below will not have location features, but will still have the ability to recieve notifications.
